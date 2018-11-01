@@ -25,3 +25,12 @@ C:\Users\ARK Labs\Documents\Teamwork.SDK\TeamWork.SDK\obj\Debug\netstandard2.0\T
 C:\Users\ARK Labs\Documents\Teamwork.SDK\TeamWork.SDK\obj\Debug\netstandard2.0\TeamWork.SDK.AssemblyInfo.cs
 C:\Users\ARK Labs\Documents\Teamwork.SDK\TeamWork.SDK\obj\Debug\netstandard2.0\TeamWork.SDK.dll
 C:\Users\ARK Labs\Documents\Teamwork.SDK\TeamWork.SDK\obj\Debug\netstandard2.0\TeamWork.SDK.pdb
+C:\Users\Michael\Documents\Teamwork.SDK\TeamWork.SDK\bin\Debug\netstandard2.0\TeamWork.SDK.deps.json
+C:\Users\Michael\Documents\Teamwork.SDK\TeamWork.SDK\bin\Debug\netstandard2.0\TeamWork.SDK.dll
+C:\Users\Michael\Documents\Teamwork.SDK\TeamWork.SDK\bin\Debug\netstandard2.0\TeamWork.SDK.pdb
+C:\Users\Michael\Documents\Teamwork.SDK\TeamWork.SDK\obj\Debug\netstandard2.0\TeamWork.SDK.csprojAssemblyReference.cache
+C:\Users\Michael\Documents\Teamwork.SDK\TeamWork.SDK\obj\Debug\netstandard2.0\TeamWork.SDK.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\Teamwork.SDK\TeamWork.SDK\obj\Debug\netstandard2.0\TeamWork.SDK.AssemblyInfoInputs.cache
+C:\Users\Michael\Documents\Teamwork.SDK\TeamWork.SDK\obj\Debug\netstandard2.0\TeamWork.SDK.AssemblyInfo.cs
+C:\Users\Michael\Documents\Teamwork.SDK\TeamWork.SDK\obj\Debug\netstandard2.0\TeamWork.SDK.dll
+C:\Users\Michael\Documents\Teamwork.SDK\TeamWork.SDK\obj\Debug\netstandard2.0\TeamWork.SDK.pdb

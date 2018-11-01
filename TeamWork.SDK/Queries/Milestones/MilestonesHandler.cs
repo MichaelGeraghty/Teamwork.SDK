@@ -24,7 +24,7 @@ namespace TeamWork.SDK.Queries.Milestones
         {
             using (var client = new AuthorisedHttpClient(_client))
             {
-                var data = await client.GetAsync<MilestonesResponse>("milestones.json" + "?page=" + page + "&pageSize=500", null);
+                var data = await client.GetAsync<MilestonesResponse>("milestones.json" + "?page=" + page, null);
                 if (data.StatusCode == HttpStatusCode.OK) return (MilestonesResponse)data.ContentObj;
             }
             return null;

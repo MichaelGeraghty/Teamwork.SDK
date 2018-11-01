@@ -36,7 +36,7 @@ namespace TeamWork.SDK.Tests
 
             var data = await new ProjectHandler(client).GetAllProjectsAsync();
             Projects = data.projects;
-            
+            //Fill datatable
             DataTables.Projects.Total_Projects.FillTable(Projects);
         }
 
@@ -48,7 +48,7 @@ namespace TeamWork.SDK.Tests
 
             var data = await new ProjectHandler(client).GetAllProjectsCreatedAfterDateAsync("20170603");
             Projects = data.projects;
-
+            //Fill datatable
             DataTables.Projects.Total_Projects.FillTable(Projects);
         }
 
@@ -70,6 +70,7 @@ namespace TeamWork.SDK.Tests
                 page++;
             }
             while (true);
+            //Fill datatable
             DataTables.TimeTracking.Time_Entries.FillTable(TimeEntries);
         }
 
@@ -91,6 +92,7 @@ namespace TeamWork.SDK.Tests
                 page++;
             }
             while (true);
+            //Fill datatable
             DataTables.TimeTracking.Time_Entries.FillTable(TimeEntries);
         }
 
@@ -113,6 +115,7 @@ namespace TeamWork.SDK.Tests
                 page++;
             }
             while (true);
+            //Fill datatable
             DataTables.TimeTracking.Time_Entries.FillTable(TimeEntries);
         }
 
@@ -135,6 +138,7 @@ namespace TeamWork.SDK.Tests
                 page++;
             }
             while (true);
+            //Fill datatable
             DataTables.TimeTracking.Time_Entries.FillTable(TimeEntries);
         }
 
@@ -157,6 +161,7 @@ namespace TeamWork.SDK.Tests
                 page++;
             }
             while (true);
+            //Fill datatable
             DataTables.TimeTracking.Time_Entries.FillTable(TimeEntries);
         }
 
@@ -169,7 +174,7 @@ namespace TeamWork.SDK.Tests
 
             var data = await new TimeHandler(client).GetTotal_Time_On_Project_WthProjectID(projectId);
             TimeTotalProject = data.Projects;
-
+            //Fill datatable
             DataTables.TimeTracking.Total_Time_On_Project.FillTable(TimeTotalProject);
         }
 
@@ -182,8 +187,8 @@ namespace TeamWork.SDK.Tests
           
                 var data = await new TimeTotalsAcrossProjectsHandler(client).GetTotal_Time_On_Project();
                 TimeTotalsAcrossProjects = data.Projects;
-             
 
+            //Fill datatable
             DataTables.TimeTracking.Total_Time_Across_Projects.FillTable(TimeTotalsAcrossProjects);
         }
 
@@ -206,7 +211,7 @@ namespace TeamWork.SDK.Tests
                 page++;
             }
             while (true);
-
+            //Fill datatable
             DataTables.Milestones.Total_Milestones.FillTable(Milestones);
         }
 
@@ -219,7 +224,7 @@ namespace TeamWork.SDK.Tests
             var data = await new InvoiceHandler(client).GetAllInvoicesAsync();
             Invoices.AddRange(data.invoices);
               
-            //currently there doesn't seem to be any invoices but this endpoint could be usefull
+            //Fill datatable
             DataTables.Invoices.Invoices.FillTable(Invoices);
         }
 
@@ -232,7 +237,7 @@ namespace TeamWork.SDK.Tests
             var data = await new ExpenseHandler(client).GetAllExpensesAsync();
             Expenses.AddRange(data.expenses);
 
-            //currently there doesn't seem to be any expenses but this endpoint could be usefull
+            //Fill datatable
             DataTables.Expenses.Total_Expenses.FillTable(Expenses);
         }
     }
